@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const crypto = require('crypto')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
-const { JWT_TOKEN } = require('../../config/keys')
+const { JWT_TOKEN } = require('../config/keys')
 const requireLogin = require("../middleware/requireLogin")
 const router = express.Router();
 
