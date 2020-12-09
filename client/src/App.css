@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+a {
+    color: black !important;
+}
+
+.brand-logo,
+h2 {
+    font-family: 'Grand Hotel', cursive;
+}
+
+.mycard {
+    margin-top: 30px;
+}
+
+.auth-card {
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid rgb(8, 93, 252) !important;
+    box-shadow: 0 1px 0 0 rgb(8, 93, 252) !important;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    width: 30%;
+}
+
+.home {
+    margin: 26px auto;
+}
+
+.home-card {
+    max-width: 50px;
+    height: max-content;
+    margin: 26px auto;
+}
+
+#toast-container {
+    top: 30px !important;
+    right: 20px !important;
+    left: auto !important;
+}
+
+
+/* Extra code */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    font-family: "Verdana", cursive, sans-serif;
+}
+
+#QuizBody {
+    background-color: #7cc6fe;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+}
+
+.app {
+    background-color: #252d4a;
+    width: 450px;
+    min-height: 200px;
+    height: min-content;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.63);
+    display: none;
+    justify-content: space-evenly;
+    color: white;
+    margin: 12px 24px;
+}
+
+.score-section {
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+}
+
+
+/* QUESTION/TIMER/LEFT SECTION */
+
+.question-section {
+    width: 100%;
+    position: relative;
+}
+
+.question-count {
+    margin-bottom: 20px;
+}
+
+.question-count span {
+    font-size: 28px;
+}
+
+.question-text {
+    margin-bottom: 12px;
+}
+
+.timer-text {
+    background: rgb(230, 153, 12);
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 5px solid rgb(255, 189, 67);
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+/* ANSWERS/RIGHT SECTION */
+
+.answer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.q-button {
+    width: 100%;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #252d4a;
+    border-radius: 15px;
+    display: flex;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 5px solid #234668;
+    cursor: pointer;
+}
+
+.q-button:hover {
+    background-color: #555e7d;
+}
+
+.q-button:focus {
+    outline: none;
+}
+
+button svg {
+    margin-right: 5px;
+}
+
+
+/*** Create test paper styles ****/
+
+#PaperSection {
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(254, 255, 170);
+    border: 4px solid rgb(240, 121, 91);
+    border-radius: 6px;
+    margin: 8px 136px;
+    padding: 18px;
+}
+
+#PaperSection button {
+    border: 2.5px solid rgb(255, 251, 0);
+    color: aqua;
+    background-color: rgb(2, 70, 255);
+    font-size: medium;
+    height: auto;
+    width: auto;
+    padding: 5px;
+    margin: 6px;
+    border-radius: 7px;
+}
+
+#testHostInfo {
+    background-color: rgb(140, 255, 238);
+    padding: 25px;
+}
+
+#TestList {
+    color: rgb(0, 17, 255);
+    text-align: center;
+    background-color: cyan;
+    width: 70%;
+    height: auto;
+    padding: 5px;
+    margin: 8px;
+    transform: translate(15%, 10%);
+    border-radius: 4px;
+    border: 2px solid seagreen;
+    box-shadow: 0px 5px 12px rgb(255, 189, 67, 0.45);
+}
+
+#TakeTest {
+    border: 2px solid rgb(255, 153, 0);
+    background-color: rgb(124, 23, 255);
+    font-size: large;
+    height: auto;
+    width: auto;
+    padding: 3px;
+    margin: 4px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.score-section {
+    color: rgb(181, 255, 70);
+}
+
+
+/* Home */
+
+.home {
+    background-color: #252d4a;
+    color: gold;
+    padding: 4px;
+    margin: 2px;
+    font-family: cursive;
+}
+
+#hh3,
+#hh4 {
+    color: darkkhaki;
+    background-color: #252d4a;
+}
+
+.hpara {
+    background-color: #252d4a;
+}
+
+#seperator {
+    background: linear-gradient(to left, cyan, hotpink, yellow, aqua);
+    height: 18px;
+}
+
+body {
+    background: no-repeat linear-gradient(to top, orange, rgb(255, 255, 255, 0.85), rgb(3, 233, 3));
+}
+
+.names {
+    font-size: x-large;
+    color: cyan;
+    text-decoration: dashed underline rgb(255, 30, 135);
+}
+
+
+/* Forgot password*/
+
+@media all and (min-width: 480px) {
+    .ResetPassword {
+        padding: 60px 0;
+    }
+    .ResetPassword form {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+    .ResetPassword .success {
+        max-width: 400px;
+    }
+}
+
+.ResetPassword .success {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ResetPassword .success .glyphicon {
+    color: grey;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
